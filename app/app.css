@@ -55,7 +55,7 @@ align-items: center;
   top: 2vh;
   right: 2vw;
   height: 30px;
-  width: 100px;
+  width: 110px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -73,4 +73,5 @@ align-items: center;
 
 .sign-out > span {
   margin: 0.1em;
+  margin-right: 0.5em;
 }
