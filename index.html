@@ -2,29 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="style.css">
+  <title>Certificate</title>
+  <meta name="author" content="Pratik Pingale">
+  <meta name="description" content="Keep log of your certificates">
+
+  <meta property="og:title" content="Certificate App">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://">
+  <meta property="og:description" content="HTML5 Template">
+  <meta property="og:image" content="./assets/preview.png">
+
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/index.css">
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+
+  <script type="text/javascript" src='./js/creds.js'></script>
+  <script type='text/javascript' src="./js/main.js"></script>
+
 </head>
 
-
-
-<body class="align">
-
-  <div class="login">
-    <h1>Login</h1>
-      <form method="post">
-        <input type="text" name="u" placeholder="Username" required="required" />
-          <input type="password" name="p" placeholder="Password" required="required" />
-          <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
-      </form>
+<body>
+  <div class="loaderClass">
+    <svg class="loader" width="40" height="40">
+      <circle cx="20" cy="20" r="15" />
+      <animate attributeName="cx" from="0" to="300" dur="3s" fill="freeze" repeatCount="2" />
+    </svg>
   </div>
-
-
-
 </body>
 
 </html>
