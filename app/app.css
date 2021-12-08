@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 html{
-  background-color:#eee;
+  background-color:#E1E8EE;
   height: 100vh;
 }
 body{
@@ -15,9 +15,7 @@ align-items: center;
 }
 .container{
   margin: auto;
-  /* width:400px  ; */
   height:400px;
-  background-color:#fff;
   display:grid;
   grid-template-columns: auto auto;
   grid-row: auto auto;
